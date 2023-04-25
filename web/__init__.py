@@ -174,8 +174,6 @@ def app_root():
 @app.get("/api/version")
 def app_api_version():
     """
-    Returns the version details of api and server as dictionary
-
     Returns:
         A dictionary containing version details of api and server
     """
