@@ -25,6 +25,7 @@ COPY web /app/web/
 COPY static /app/static/
 COPY libflagship /app/libflagship/
 COPY cli /app/cli/
+COPY config /app/config
 
 # Copy the installed dependencies from the build environment
 COPY --from=build-env /usr/local/lib/python3.11/site-packages /usr/local/lib/python3.11/site-packages
